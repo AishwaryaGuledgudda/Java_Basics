@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class OddOrEven {
 
     static int OddEve(int a){
-        int b;
         if(a%2==0){
             return 0;
         }
