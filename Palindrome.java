@@ -8,7 +8,7 @@ public class Palindrome {
         for(int i=(l-1);i>=0;i--){
             rev = rev+str.charAt(i);
         }
-        if(rev.equals(str)){
+        if(rev.equalsIgnoreCase(str)){
             return 0;
         }else return 1;
     }
