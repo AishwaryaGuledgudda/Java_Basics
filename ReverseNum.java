@@ -13,8 +13,8 @@ public class ReverseNum {
         System.out.println("Enter the number to be revresed");
         int num = scanner.nextInt();
         ReverseNum rn = new ReverseNum();
-        rn.NumReverse(num);
-        System.out.println("The revresed number is " +num);
+        StringBuffer reversed = rn.NumReverse(num);
+        System.out.println("The revresed number is " +reversed);
 
     }
 }
