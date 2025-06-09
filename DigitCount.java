@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class DigitCount {
     static int countDigi(int num){
         StringBuffer str = new StringBuffer(String.valueOf(num));
-        int count =str.length();
-        return count;
+        return str.length();
     }
 
     public static void main(String[] args) {
