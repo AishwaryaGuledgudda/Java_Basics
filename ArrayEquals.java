@@ -12,7 +12,7 @@ public class ArrayEquals {
                     break;
                 }
             }
-        }equalsOrNot = false;
+        }equalsOrNot = true;
         if(equalsOrNot){
             System.out.println("It is equal");
         }
