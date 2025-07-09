@@ -4,7 +4,7 @@ public class BinarySearch {
     //element should be sorted else we need to first sort it
     public static void main(String[] args) {
         int[] a = {53, 31, 1, 47, 03, 21, 9};
-        int key = 1;
+        int key = 31;
         boolean flag = false;
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));

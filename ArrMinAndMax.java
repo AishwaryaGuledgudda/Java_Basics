@@ -1,5 +1,7 @@
 public class ArrMinAndMax {
     public static void main(String[] args) {
+        //find largest and smallest in an array a is for largest , b is for smalleest
+
         int[] a={30,50,66,12,10};
         int[] b={33,10,9,-1,6};
         int max=a[0];
@@ -8,7 +10,7 @@ public class ArrMinAndMax {
             if(a[i]>max){
                 max=a[i];
             }
-        }System.out.println("The max number ib array is "+max);
+        }System.out.println("The max number in array is "+max);
         for(int j=1;j<b.length;j++){
             if(b[j]<min){
                 min=b[j];

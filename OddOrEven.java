@@ -8,6 +8,12 @@ public class OddOrEven {
         }
         else return 1;
     }
+//   static StringBuilder ReverseString(String str){
+//        StringBuilder sb = new StringBuilder(str);
+//
+//        return sb.reverse();
+//
+//    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,5 +23,7 @@ public class OddOrEven {
         if (result == 0) {
             System.out.println("The entered value is Even");
         } else System.out.println("The entered value is Odd");
+//        String s = "helo";
+//        System.out.println(ReverseString(s));
     }
 }

@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class ArrayEqualsNew {
+    // check if two given arrays are equal
 
 
     public static void main(String[] args) {
