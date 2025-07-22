@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 
-public class TwoSum {
+public class TwoSum_LeetCode {
     public static int[] twoSum(int[] a, int k) {
         HashMap<Integer,Integer> map = new HashMap<>();
 
