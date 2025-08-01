@@ -2,7 +2,7 @@ import java.math.BigInteger;
 
 import static java.lang.String.valueOf;
 
-public class FactorialOfBigInteger {
+public class YT_FactorialOfBigInteger {
 
     public static void main(String[] args) {
         int a = 50;
