@@ -12,12 +12,12 @@ public class ValidParentheses_LeetCode {
                 stk.pop();
             }else if (c==']' && !stk.isEmpty() && stk.peek()=='[') {
                 stk.pop();
-            }
+            }else return false;
         }return stk.empty();
     }
 
     public static void main(String[] args) {
-        String str = "()";
+        String str = "[()]}";
         Boolean result = validPara(str);
         if(result){
             System.out.println("Valid paranthesis");
